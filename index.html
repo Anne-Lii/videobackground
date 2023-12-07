@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,28 +10,30 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-   
+    <header id="main-header">
+        <img src="bilder/annelii_logga_png_24.png" alt="">
+        <video autoplay loop plays-inline>
+            <source src="video/Videobakgrund2_komp_webm.webm" type="video/webm">
+            <source src="video/Videobakgrund 2_KOMP.mp4" type="video/mp4">
+        </video>
+    </header>
     <div class="container">
-        <header>
-            
-            <img src="bilder/annelii_logga_png_24.png" alt="logotyp">
-            
-        </header>
         <main>
-            <video autoplay muted loop id="background-video">
-                <source src="video/Videobakgrund1_komp_webm.webm" type="video/webm">
-                <source src="video/Videobakgrund1_komp.mp4" type="video/mp4">
-            </video>
-            <section>
-                <h1></h1>
-                <p>Jag har på denna sida avnänt mig av video elementet som jag har infogat i HTML koden.</p>
+            <section class="text">
+                <p>Videon är filmad med en mobilkamera av modellen Samsung Galaxy s20. 1920 x 1080 i upplösning, 30 fps och med stativ. 
+                    Redigerad i Adobe Premiere PRO 2024 där även ljudet togs bort. 
+                    Originalfilmen är komprimerad i programmet Handbrake till mp4 format samt webm format båda med en filstorlek under 2MB. 
+                    Videon är inlagd med video elementet i HTML koden. Inspirerat av 
+                    <a href="https://play.miun.se/media/Grafisk+teknik+f%C3%B6r+webb/0_ls61pzjt">Mattias föresläsning</a> om videobakgrunder.                   
+                    I video elementets starttagg loopar videon och är satt till autoplay samt attributet plays-inline för att vara kompatibel med iphones.<br><br>
+
+                    Videon är satt till 100 % i bredd i CSS och 100vh i höjd. Även satt till object-fit:cover för att videon ska skala upp och ned med rätt propotioner.
+                    </p>
             </section>
-            <footer>
-                <p><strong>&copy;Anne-Lii Hansen 2023<br>
-                    Video för webben</strong></p>
-            </footer>
         </main>
     </div>
 </body>
+
 </html>
