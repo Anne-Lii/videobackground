@@ -9,6 +9,8 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 .container {  
     width: 100%;  
     position: relative;
@@ -27,12 +29,12 @@ header img {
     max-width: 300px;
     padding-left: 1%;
     padding-top: 2%;
+    
 
 }
 
 main {
     width: 100%;
-    max-width: 1920px;
     margin: auto;
 }
 
@@ -46,7 +48,6 @@ main h1 {
 main video {
     width: 100%;
 }
-
 section {
     width: 45%;
     margin: auto;
